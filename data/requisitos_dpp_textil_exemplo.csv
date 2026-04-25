@@ -1,0 +1,8 @@
+requisito,categoria,criticidade,evidencia_esperada,status_exemplo
+Identificacao unica do produto,rastreabilidade,alta,codigo de produto ou lote,parcial
+Origem da materia-prima,rastreabilidade,alta,registro de fornecedor e lote,pendente
+Composicao do material,produto,alta,ficha tecnica do produto,parcial
+Consumo de agua,ambiental,media,relatorio de processo,pendente
+Emissoes estimadas,ambiental,media,inventario ou estimativa,pendente
+Certificacoes aplicaveis,conformidade,media,certificados digitais,parcial
+Orientacoes de descarte,circularidade,baixa,instrucao ao consumidor,pendente
