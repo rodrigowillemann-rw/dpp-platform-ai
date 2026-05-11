@@ -6,7 +6,7 @@ Projeto de plataforma e estudo de caso para apoiar pequenas e medias empresas na
 
 ## Problema que Resolve
 
-Empresas inseridas em cadeias globais precisam organizar dados de produto, origem de materiais, fornecedores, processos, documentos tecnicos e indicadores ambientais. Essas informacoes normalmente estao dispersas em planilhas, relatorios e sistemas internos, dificultando a preparacao para exigencias regulatórias e comerciais.
+Empresas inseridas em cadeias globais precisam organizar dados de produto, origem de materiais, fornecedores, processos, documentos tecnicos e indicadores ambientais. Essas informacoes normalmente estao dispersas em planilhas, relatorios e sistemas internos, dificultando a preparacao para exigencias regulatorias e comerciais.
 
 ## Para Quem Gera Valor
 
@@ -41,14 +41,35 @@ docs/       estudo de caso e requisitos do setor textil
 src/        futuras rotinas de processamento e diagnostico
 ```
 
-## Resultados e Aprendizados Esperados
+## Como Executar
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook notebooks/dpp-readiness-demo.ipynb
+```
+
+## Resultados e Aprendizados
 
 - Matriz inicial de requisitos para DPP textil
 - Diagnostico sintetico de prontidao de empresas
 - Base para prototipo de analise documental com IA
 - Aprendizado sobre regulacao, sustentabilidade e produto digital
 
+## Resultado Demonstrativo
+
+Com os dados sinteticos em `data/requisitos_dpp_textil_exemplo.csv`, o diagnostico inicial calcula um score de prontidao DPP de **25,0%**. O resultado indica uma base parcialmente estruturada para identificacao do produto, composicao e certificacoes, com lacunas relevantes em origem da materia-prima, impactos ambientais e circularidade.
+
+| Indicador | Resultado |
+| --- | ---: |
+| Requisitos avaliados | 7 |
+| Score sintetico de prontidao | 25,0% |
+| Itens de alta criticidade pendentes | 1 |
+| Itens parcialmente atendidos | 3 |
+
 ## Autor
 
 Rodrigo Willemann  
 Email: rodrigo.willemann@gmail.com
+
