@@ -48,14 +48,6 @@ src/        futuras rotinas de processamento e diagnostico
 - Base para prototipo de analise documental com IA
 - Aprendizado sobre regulacao, sustentabilidade e produto digital
 
-## Proximos Passos
-
-- Consolidar requisitos minimos para um DPP no setor textil.
-- Criar modelo de dados para produtos, materiais, fornecedores e evidencias.
-- Desenvolver diagnostico automatizado de maturidade.
-- Integrar pipeline de OCR e analise documental com LLMs.
-- Conectar este repositorio a uma demonstracao visual.
-
 ## Autor
 
 Rodrigo Willemann  
